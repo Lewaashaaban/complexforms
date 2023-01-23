@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c0c266f5b6.js" crossorigin="anonymous"></script>
+    
+    <style>
+
+        .record{
+    background-color: beige;
+    
+}
+.review{
+    
+    float: right;
+}
+.form1
+{
+ 
+    width: 30cm; /* set a fixed width for the div */
+  margin: auto;
+  height: 100vh;
+    
+}
+.buttons
+{
+    float:right;
+}
+
+.inline{
+        max-width:100px;
+        margin:auto;
+        
+    }
+
+      
+.input-icons 
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        float: left;
+    }
+      
+.icon 
+    {
+        padding: 5px;
+        min-width: 30px;
+    }
+      
+.input-field
+     {
+        padding: 10px;
+        text-align:center;
+    }
+.address{
+    float: right;
+}
+button{
+    cursor: pointer;
+
+}
+
+#recordid{
+    height: 25px;
+    border: none;
+    background-color: beige;
+
+
+}
+    </style>
+    </head>
+
+    <body>
+  <div class="form1"  >
+     <form style="border-right-color:solid grey;border-bottom:solid grey;border-top: lightgray;border-left:lightgray; border-width:4px; border-style:solid;" > 
+            <div class="record" style="margin: 10px;height: 0.7cm;" >  
+                <select name="Record" id="recordid" >
+                <option value="record"selected>Record</option>
+                <option value="2">2</option>    
+                </select>  
+                 <div class="review">
+                        <label>view:</label>      
+                        <select name="Record" id="recordid" >
+                        <option value="record"selected ><b>Review orders</b></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>   
+                        </select>
+                 </div>
+            </div><br>
+
+
+            <div class="required-field" style="margin-right: 10px;margin-left: 5px;margin-bottom: 10px;">
+
+                <i class="fa-solid fa-arrow-down" style="color: blue;"></i>
+                <i class="fa-solid fa-arrow-down" style="color: blue;"></i>
+                <label style="font-size: larger;">* -indicates a required field</label>
+                <div class="buttons">
+                    <button style="height:25px;width:60px ;" >Okay</button>
+                    <button style="height: 25px;">cancel</button>
+                    <button style="height: 25px;">delete</button>
+                </div>
+
+            </div><hr>
+
+
+        <div class="input-icons" >
+            <table style="margin-bottom: 20px;margin-left: 20px;height: 7cm;">
+                <tr>
+                <td style="margin: 10cm;text-align:left ;" >
+                <label><b>Customer :</b></td>
+               <td style="width: 18cm;"> <input type="text" value="Bon app'" style="size:10px"><i class="fa fa-phone icon"></i><br></td>
+               <td><label><b>Adress :</b></label></td>
+               <td><input type="text"></td><br><br>
+               </tr>
+
+               <tr>
+                    <td><label><b>Employee:</b></label></td>
+                    <td><input type="text"><i class="fa fa-phone icon"></i><br></td>
+                    <td><label><b>City:</b></label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+               </tr>
+               <td><label><b>Order Date:</b></td>
+               <td><input type="date" value="1998-03-06"></td>
+               <td><label><b>Region:</b></label></td>
+               <td><input type="text" ></td>
+               </tr>
+
+               <tr>
+                <td><label><b>Required <br> Date: &emsp;</b></label></td>
+                <td><input type="date" value="1998-06-03"></td>
+                <td> <label><b>Post Code: </b></label></td>
+                <td><input type="text"></td>          
+               </tr>
+
+               <tr>
+                <td> <label><b>Shipped Date:</b></label></td>
+                <td><input type="date" value="2003-06-28" ></td>
+                <td> <label><b>Ship Country:</b></label></td>
+                <td><input type="text"></td>
+               </tr>
+            </table>
+
+               
+                
+                <!--i class="fa-duotone fa-eraser"></i>               
+                <i class="fa fa-phone icon"></i></label>
+                <input class="input-field" type="text" style="width: 7cm;height: 0.1cm;">
+                <i class="fa-sharp fa-solid fa-calendar-days" style="margin: 5px;color: firebrick;"></i></label><br><br>
+
+                <label><b>Required <br> Date: &emsp;</b></label>
+                <i class="fa fa-lock icon"></i>
+                <input class="input-field" type="text" style="width: 7cm;height: 0.1cm;"><br>
+                <i class="fa-sharp fa-solid fa-calendar-days" style="margin: 5px;color: firebrick;"></i></label><br><br>
+
+                <label><b>Shipped Date:</b></label>
+                <i class="fa fa-lock icon"></i>
+                <input class="input-field" type="text" style="width: 7cm;height: 0.1cm;">
+                <i class="fa-sharp fa-solid fa-calendar-days" style="margin: 5px;color: firebrick;"></i></label><br><br>
+                </td-->
+            
+                
+            
+        
+        </div>
+        
+        <div class="table1"  >
+            <table border="4" style="border: black;margin-left: 0.4cm;">
+                <tr>
+                    <td style="width:29cm">
+                        <select name="select" id="select" style="border-radius:10%;"></select>
+                        <input type="text" name="search" value="cha">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                        <input type="image" id="img" name="img" value="New Order Details &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" style="color: blue;font-size:medium">
+                        
+                        <select name="actions" id="actions" style="border: 0ch;color: rgb(33, 28, 78);">
+                            <option value="actions" selected style="color: cornflowerblue;"> Actions</option>
+                            <option value="actions">1</option>
+                            <option value="actions">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width: 29cm; border: 1px solid black;border-collapse: collapse;margin-left: 0.4cm;text-align:center;margin-bottom: 10px;" >
+                <tr style="color: dodgerblue;">
+                    <td >
+                        <p>Product Name</p>
+                    </td>
+                    <td>
+                        <p>Unit price</p>
+                    </td>
+                    <td>
+                        <p>Quantity</p>
+                    </td>
+                    <td>
+                        <p>Discount</p>
+                    </td>
+                    <td>
+                        <p>Product <br>Category<br>Name</p>
+                    </td>
+                    <td>
+                        <p>Product Supplier <br>Company Name</p>
+                    </td>
+                    <td>
+                        <p>Extended Price</p>
+                    </td>
+
+                </tr>
+                <tr style="color: rgb(14, 14, 14);">
+                    <td >
+                        <p>Grandma's <br>boysenberry Spread</p>
+                    </td>
+                    <td>
+                        <p>25.00$</p>
+                    </td>
+                    <td>
+                        <p>20</p>
+                    </td>
+                    <td>
+                        <p>25.00 %</p>
+                    </td>
+                    <td>
+                        <p>Condimets</p>
+                    </td>
+                    <td>
+                        <p>Grandama kelly's <br>Homestead</p>
+                    </td>
+                    <td>
+                        <p>375.00$</p>
+                    </td>
+
+                </tr>
+                <tr style="color: rgb(14, 14, 14);">
+                    <td >
+                        <p>Tofu</p>
+                    </td>
+                    <td>
+                        <p>23.25$</p>
+                    </td>
+                    <td>
+                        <p>20</p>
+                    </td>
+                    <td>
+                        <p>25.00 %</p>
+                    </td>
+                    <td>
+                        <p>Produce</p>
+                    </td>
+                    <td>
+                        <p>Mayumi's</p>
+                    </td>
+                    <td>
+                        <p>348.75$</p>
+                    </td>
+
+                </tr>
+                <tr style="color: rgb(14, 14, 14);">
+                    <td >
+                        <p>Teatime Chocolate <br> biscuits</p>
+                    </td>
+                    <td>
+                        <p>9.20$</p>
+                    </td>
+                    <td>
+                        <p>10</p>
+                    </td>
+                    <td>
+                        <p>25.00 %</p>
+                    </td>
+                    <td>
+                        <p>Confections</p>
+                    </td>
+                    <td>
+                        <p>Specialty Biscuits,<br>Ltd.</p>
+                    </td>
+                    <td>
+                        <p>69.00$</p>
+                    </td>
+                </tr>    
+                <tr>
+                    <td colspan="7">
+                        <hr style="border-top: dashed 1px;">
+    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="center" colspan=6 style="color:grey"> Avg: $19.15 &emsp;Sum:50 &emsp;Avg:25.00% </td>
+                    <td style="color:grey"> $792.75</td>
+    
+                </tr>   
+      
+            </table>
+        </div>
+
+
+            <table class="under-table" style="margin-left: 20px;margin-bottom: 20px;height: 4cm;font-size: larger;">
+                <tr>
+                    <td ></td>
+                    <td style="width: 20CM;"></td>
+                    <td><b>Subtotal :</b></td>
+                    
+                    <td style="font-weight: lighter;color: grey;">$792.75</td>
+
+                </tr>
+                <tr>
+                <td><label><b>Ship name :</b> </label></td>
+                <td><input type="text" value="Bon app'"></td>
+                <td><b>Freight : </b></td>
+                <td><input type="text" value="$38.25" style="font-weight: lighter;color: grey;width: 50px; ;"></td>
+                </tr>
+
+                <tr>    
+                    <td><label><b>Ship Via : </b></label></td>
+                   <td> <select name="package" id="package" style="pointer-events: visiblePainted;">
+                            <option selected>United package</option>
+                            <option >not united package</option>
+                    </select>   </td>
+                    <td><lable><b>Total :</b></lable></td>
+                    <td><lablel style="font-weight: lighter;color: grey;">$831.03</lablel></td>
+
+                </tr>   
+            </table>
+            <hr style="border-top: dashed 1px;color: grey;margin-left: 10px;margin-right: 10px;">
+
+            <div class="required-field" style="margin-right: 10px;margin-left: 5px;margin-bottom: 20px;">
+
+                <i class="fa-solid fa-arrow-down" style="color: blue;"></i>
+                <i class="fa-solid fa-arrow-down" style="color: blue;"></i>
+                <label style="font-size: larger;">* -indicates a required field</label>
+                <div class="buttons">
+                    <button style="height:25px;width:60px ;" >Okay </button>
+                    <button style="height: 25px;">Cancel</button>
+                    <button style="height: 25px;">Delete</button>
+                </div>
+
+            </div>
+            
+
+
+
+        
+
+     </form>  
+   </div>
+
+    </body>
+    </html>

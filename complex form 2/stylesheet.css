@@ -1,0 +1,55 @@
+.record{
+    background-color: beige;
+    
+}
+.review{
+    
+    float: right;
+}
+.form1
+{
+    width: 30cm;
+    margin: 30px;
+    margin-left: 10cm;
+    height: 100vh;
+    
+    
+}
+.buttons
+{
+    float:right;
+}
+
+.inline{
+        max-width:100px;
+        margin:auto;
+        
+    }
+
+      
+.input-icons 
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        float: left;
+    }
+      
+.icon 
+    {
+        padding: 5px;
+        min-width: 30px;
+    }
+      
+.input-field
+     {
+        padding: 10px;
+        text-align:center;
+        margin-bottom: 3px;
+    }
+.address{
+    float: right;
+}
+button{
+    cursor: pointer;
+
+}
